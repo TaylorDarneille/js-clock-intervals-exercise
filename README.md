@@ -64,9 +64,9 @@ function hourRotation(hours, minutes) {
 </p>
 </details>
 
-#5: Write a `tick` function that logs “tick” to the console.  How would you get the tick function to run every minute? Don’t forget to set up a  DOMContentLoaded event listener.
+#5: Write a `tick` function that logs “tick” to the console.  How would you get the tick function to run every second? Don’t forget to set up a  DOMContentLoaded event listener.
 
-#6: Initialize three variables to zero: `seconds`, `minutes` and `hours`. Modify the `tick` function to update and print values of ``seconds`, `minutes` and `hours`.
+#6: Initialize three variables to zero: `seconds`, `minutes` and `hours`. Modify the `tick` function to update and print values of `seconds`, `minutes` and `hours`. What happens when you have 60+ seconds? 60+ minutes?
 
 #7. Grab the three DOM elements you need to manipulate and store them so you can refer to them later. Rotate them accordingly inside the tick function.
 

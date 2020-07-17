@@ -53,7 +53,7 @@ function hourRotation(hours, minutes) {
   // first, find the total minutes converting the hours to minutes, then adding that value to the minutes argument
   // code here
 
-  // there are 60min*12hr=720 minutes in a hour
+  // there are 60min*12hr=720 minutes in a full rotation (12 hours)
   // that means, each minute needs to rotate the
   // minutehand by 360/720=.5 degrees
 
